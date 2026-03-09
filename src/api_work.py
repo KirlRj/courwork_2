@@ -102,6 +102,6 @@ class APIAdapter(AbstractAPIAdapter):
         return self.__aeroplanes
 
     @property
-    def aeroplanes(self) -> None:
+    def aeroplanes(self) -> Optional[Dict[str, Any]]:
         """Метод для доступа к данным о самолетах"""
         return self.__aeroplanes
